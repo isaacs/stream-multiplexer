@@ -1,6 +1,6 @@
 {
   "name": "stream-multiplexer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pipe one stream in, many streams out.  Goes as slow as the slowest writer.",
   "main": "multiplexer.js",
   "scripts": {
