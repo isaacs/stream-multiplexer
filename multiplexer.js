@@ -46,6 +46,9 @@ function WriteReq(chunk, enc_, cb_) {
 }
 
 function MultiPlexer() {
+        if (!(this instanceof MultiPlexer))
+                return new MultiPlexer;
+
         debug('ctor');
         Stream.apply(this, arguments);
         this._paused = false;

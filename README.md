@@ -30,7 +30,8 @@ above, don't bother with this module.
 ## USAGE
 
 ```javascript
-var sm = require('stream-multiplexer');
+var SM = require('stream-multiplexer');
+var sm = new SM;
 var myStream = fs.createReadStream('some-file');
 
 myStream.pipe(sm);
